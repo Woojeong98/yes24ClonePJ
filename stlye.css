@@ -1,0 +1,139 @@
+:root {
+    --background-defalt-color: #fff;
+    --box-color: #d8d8d8;
+
+
+
+}
+
+<style>
+/* 헤더 */
+
+.yesheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+.asign {
+
+    margin-left: auto;
+}
+
+.logintxt {
+
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* 메인페이지 */
+.content{
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 960px;
+    border: solid 1px #d8d8d8;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* 로그인 */
+
+.login {
+    float: left;
+    margin: 20px;
+}
+
+
+.logintxt {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.loginbtn {
+    background-color: #0076c0;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.login-inform{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.check {
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+}
+
+.find {
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+}
+
+
+/* SNS 로그인 버튼 */
+
+.snslog {
+    width: 100%;
+}
+
+.snslog button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.snsl{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.ft {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+
+.ad{
+display: flex;
+justify-content: right;
+margin: 50px;
+}
+
+
+.newAccount {
+    border: ;
+}
