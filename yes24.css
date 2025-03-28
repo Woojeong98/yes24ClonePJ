@@ -13,17 +13,7 @@ body {
 }
 
 body > * {
-    width: 60%;
-}
-
-/* 메인 컨테이너 */
-main {
-    display: flex;
-    justify-content: center;
-    gap: 2.3rem;
-    background-color: white;
-    border: 1px solid lightgray;
-    padding: 20px;
+    width: 65%;
 }
 
 /* 링크 기본 스타일 */
@@ -38,11 +28,12 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 1px solid lightgray;
+    height: 80px;
+    margin: 30px;
 }
 
 
-.logo img {
+.logo img { 
     height: 50px;
 }
 
@@ -59,58 +50,68 @@ a {
     border: 1px solid lightgray;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .asign:hover {
     background-color: #f5f5f5;
 }
 
-.asign {
-    padding: 10px 20px;
-    background-color: white;
-    border: 1px solid lightgray;
-    cursor: pointer;
-    font-size: 16px;
+
+
+/* 메인페이지 */
+.content{
+    margin: 0 auto;
+    padding: 60px 0;
+    padding-left: 100px;
+    width: 960px;
+    border: solid 1px #d8d8d8;
+    text-align: center;
+    background-color: #fff;
 }
 
-.asign:hover {
-    background-color: #f5f5f5;
+/* 로그인 */
+
+.login {
+    float: left;
+    margin: 20px;
 }
 
-/* 로그인 영역 */
-.mainLogin {
-    display: flex;
-    flex-direction: column;
+
+.logintxt {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.loginbtn {
+    text-align: center;
     align-items: center;
-    width: 100%;
-}
-
-.memberYorN {
-    background-color: white;
-    color: black;
-    border: 1px solid #0076c0;
+    background-color: #0076c0;
+    color: white;
+    border: none;
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
-    width: 100%;
-    max-width: 200px;
-    text-align: center;
+    width: 320px;
+    margin: 10px;
 }
 
-/* 로그인 폼 */
 .login-inform {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .login-inform input {
     width: 100%;
-    max-width: 300px;
+    width: 320px;
     padding: 12px;
     font-size: 16px;
     border: 1px solid lightgray;
@@ -124,34 +125,22 @@ a {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin: 10px;
 }
-
-/* 로그인 버튼 */
-.loginbtn {
-    background-color: #0076c0;
-    align-items: center;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 18px;
-    width: 320px;
-    max-width: 200px;
-    margin-top: 10px;
-}
-
-/* 아이디 / 비밀번호 찾기 */
-.find_id {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.check {
     font-size: 14px;
-    margin-top: 10px;
+    color: rgb(53, 53, 53);
 }
 
-/* SNS 로그인 */
+.find {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+}
+
+
+/* SNS 로그인 버튼 */
+
 .snsLogin {
     display: flex;
     flex-direction: column;
@@ -159,6 +148,15 @@ a {
     width: 320px;
     margin-top: 20px;
     gap: 10px;
+    margin: 10px;
+}
+
+.snsLogin p {
+    display: flex;
+    width: 50;
+    height: 50;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -184,29 +182,22 @@ a {
     height: 30px;
 }
 
-/* 광고 영역 (오른쪽 배치) */
-.adimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.adimg {
-    width: 960px;
-    max-width: 960px; /* 광고 이미지 크기를 적당하게 설정 */
-    height: auto;
-}
-
-/* 푸터 */
-footer {
+.ft {
     color: black;
     text-align: center;
+    align-items: center;
     padding: 10px 0;
-    width: 100%;
-    font-size: 20px;
+
+    font-size: 10px;
 }
 
-.footerAd {
-    width: 600px;
+.ft img {
+    width: 960px;
+}
+
+
+.ad{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
